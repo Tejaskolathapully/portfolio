@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tejas Kolathapully — Data Analyst &amp; Data Science Enthusiast</title>
+<meta name="description" content="Portfolio of Tejas Kolathapully: Power BI, SQL, Python, ETL and analytics projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Hello, world</div>
+      <h1>Hi, I'm <span class="grad">Tejas</span> <span class="wave">👋</span></h1>
+      <div class="typed" data-typed="Data Analyst (Fresher)|Power BI &amp; DAX dashboards|SQL &amp; ETL pipelines|Python · Pandas · NumPy|CDAC PG-CP BDA graduate"></div>
+      <p class="lead">I turn messy data from many sources into clean reports, KPI dashboards and insights people can act on. Recently I built a real-time news intelligence agent with RAG, and a banking operations dashboard in Power BI.</p>
+      <div class="row" style="margin-top:30px">
+        <a class="btn primary" href="projects.html">See my projects →</a>
+        <a class="btn" href="assets/resume.pdf" target="_blank">Download résumé ↓</a>
+        <a class="btn" href="https://github.com/Tejaskolathapully" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </div>
+    <div class="photo-wrap tilt">
+      <div class="ring"></div>
+      <img src="assets/photo.jpg" alt="Portrait of Tejas Kolathapully">
+      <span class="float-chip">📊 Power BI</span><span class="float-chip">🐍 Python</span><span class="float-chip">🗄️ SQL</span>
+    </div>
+  </section>
+
+  <div class="marquee"><div class="track" id="mq"></div></div>
+
+  <section>
+    <div class="eyebrow reveal">By the numbers</div>
+    <div class="stats">
+      <div class="stat reveal"><b data-count="3">0</b><span>Portfolio projects</span></div>
+      <div class="stat reveal d1"><b data-count="4">0</b><span>Certifications &amp; workshops</span></div>
+      <div class="stat reveal d2"><b data-count="67.5" data-dec="1">0</b><span>Hours of analytics training (Udemy)</span></div>
+      <div class="stat reveal d3"><b data-count="99.76" data-dec="2" data-suffix="%ile">0</b><span>Naukri Campus Young Turks</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow reveal">Featured work</div>
+    <h2 class="reveal">Projects that tell a data story</h2>
+    <div class="grid g3">
+      <a class="card proj tilt reveal" href="project-banking.html">
+        <span class="num">01 / Power BI · SQL · DAX</span><h3>Banking Operations Dashboard</h3>
+        <div class="viz"><u style="--h:40%"></u><u style="--h:62%"></u><u style="--h:48%"></u><u style="--h:80%"></u><u style="--h:70%"></u><u style="--h:95%"></u></div>
+        <p class="muted">Deposit trends and loan-performance KPIs with drill-through navigation.</p><span class="go">Open case study <i>→</i></span>
+      </a>
+      <a class="card proj tilt reveal d1" href="project-news.html">
+        <span class="num">02 / ETL · NLP · RAG</span><h3>News Intelligence Briefing Agent</h3>
+        <div class="viz"><u style="--h:90%"></u><u style="--h:55%"></u><u style="--h:75%"></u><u style="--h:35%"></u><u style="--h:65%"></u><u style="--h:85%"></u></div>
+        <p class="muted">CDAC capstone: RSS &amp; API ingestion, topic clustering, summaries and a Streamlit dashboard.</p><span class="go">Open case study <i>→</i></span>
+      </a>
+      <a class="card proj tilt reveal d2" href="project-vision.html">
+        <span class="num">03 / Python · Computer Vision</span><h3>Hybrid Object Recognition</h3>
+        <div class="viz"><u style="--h:45%"></u><u style="--h:60%"></u><u style="--h:52%"></u><u style="--h:88%"></u><u style="--h:78%"></u><u style="--h:68%"></u></div>
+        <p class="muted">Major project analysing 80 COCO classes; up to 40% relative improvement on 5 classes.</p><span class="go">Open case study <i>→</i></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="card reveal" style="text-align:center;padding:60px 24px">
+    <div class="eyebrow">Open to opportunities</div>
+    <h2>Let's build something with data.</h2>
+    <div class="row" style="justify-content:center"><a class="btn primary" href="contact.html">Get in touch</a><a class="btn" href="certificates.html">View certificates</a></div>
+  </section>
+</main>
+<script>
+  const sk=['Power BI','DAX','SQL','MySQL','PostgreSQL','Python','Pandas','NumPy','Excel · Pivot Tables','Tableau','ETL','EDA','Streamlit','RAG','Git & GitHub','Data Validation'];
+  document.getElementById('mq').innerHTML=[...sk,...sk].map(s=>`<span>${s}</span>`).join('');
+</script>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Banking Operations Dashboard — Tejas Kolathapully</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <div class="page-hero">
+    <div class="crumbs"><a href="index.html">home</a> / <a href="projects.html">projects</a> / banking dashboard</div>
+    <div class="eyebrow">Case study 01</div>
+    <h1 class="reveal">Banking Operations <span class="grad">Dashboard</span></h1>
+    <p class="lead reveal d1" style="margin-top:18px">An interactive Power BI dashboard that reports banking operations, deposit trends and loan performance KPIs for business stakeholders.</p>
+    <div class="kv reveal"><div><small>TOOLS</small>Power BI · SQL · DAX</div><div><small>FOCUS</small>Deposits &amp; loans</div><div><small>AUDIENCE</small>Business stakeholders</div><div><small>GITHUB</small><a href="https://github.com/Tejaskolathapully" target="_blank" rel="noopener" style="color:var(--a1)">Tejaskolathapully ↗</a></div></div>
+  </div>
+
+  <section>
+    <h2 class="reveal">How it came together</h2>
+    <ol class="steps">
+      <li class="reveal"><b>Extract with SQL.</b><p class="muted">Wrote optimised SQL queries to extract, clean and transform data from relational databases for reporting.</p></li>
+      <li class="reveal d1"><b>Model the metrics with DAX.</b><p class="muted">Defined business metrics using DAX measures and calculated columns.</p></li>
+      <li class="reveal d2"><b>Design for exploration.</b><p class="muted">Added drill-through navigation so stakeholders can move from a headline KPI to the detail behind it.</p></li>
+      <li class="reveal d3"><b>Deliver clear summaries.</b><p class="muted">Turned data into summaries and insights on deposit trends and loan performance.</p></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2 class="reveal">Data flow</h2>
+    <div class="flow reveal"><span class="n">Relational DB</span><span class="arr">→</span><span class="n">SQL clean &amp; transform</span><span class="arr">→</span><span class="n">Power BI model</span><span class="arr">→</span><span class="n">DAX measures</span><span class="arr">→</span><span class="n">Dashboard · drill-through</span></div>
+  </section>
+
+  <section class="reveal">
+    <h2>Dashboard layout (schematic)</h2>
+    <div class="chartbox">
+      <p class="muted" style="font-size:.85rem">Illustrative wireframe of the report structure — not real data.</p>
+      <div class="bars" style="margin-top:18px">
+        <div class="b"><u style="--h:42%"></u><span>Q1</span></div><div class="b"><u style="--h:58%"></u><span>Q2</span></div><div class="b"><u style="--h:51%"></u><span>Q3</span></div><div class="b"><u style="--h:74%"></u><span>Q4</span></div><div class="b"><u style="--h:68%"></u><span>Q5</span></div><div class="b"><u style="--h:90%"></u><span>Q6</span></div>
+      </div>
+      <div class="legend"><span><i></i>Deposit trend (placeholder)</span></div>
+    </div>
+  </section>
+
+  <div class="pn"><a href="projects.html"><small>← BACK</small><h3>All projects</h3></a><a href="project-news.html" style="text-align:right"><small>NEXT →</small><h3>News Intelligence Agent</h3></a></div>
+</main>
+<script src="main.js"></script>
+</body>
+</html>

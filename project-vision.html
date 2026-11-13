@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hybrid Object Recognition — Tejas Kolathapully</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <div class="page-hero">
+    <div class="crumbs"><a href="index.html">home</a> / <a href="projects.html">projects</a> / hybrid object recognition</div>
+    <div class="eyebrow">Case study 03 · B.Tech major project</div>
+    <h1 class="reveal">Hybrid Object <span class="grad">Recognition</span></h1>
+    <p class="lead reveal d1" style="margin-top:18px">Evaluating and improving an object recognition model across the COCO dataset, with a focus on finding the classes that underperform.</p>
+    <div class="kv reveal"><div><small>LANGUAGE</small>Python</div><div><small>DATASET</small>COCO · 80 categories</div><div><small>RESULT</small><span data-count="40" data-suffix="%" style="font-size:1.6rem;font-weight:700">0</span> <span class="muted">max relative gain</span></div><div><small>GITHUB</small><a href="https://github.com/Tejaskolathapully" target="_blank" rel="noopener" style="color:var(--a1)">Tejaskolathapully ↗</a></div></div>
+  </div>
+
+  <section>
+    <h2 class="reveal">What I did</h2>
+    <ol class="steps">
+      <li class="reveal"><b>Analyse 80 categories.</b><p class="muted">Used Python-based statistical and trend analysis to identify underperforming classes across the COCO dataset.</p></li>
+      <li class="reveal d1"><b>Benchmark baseline vs improved.</b><p class="muted">Built comparative accuracy visualisations across 5 object classes, showing up to a 40% relative improvement.</p></li>
+      <li class="reveal d2"><b>Document the method.</b><p class="muted">Wrote a formal technical report covering evaluation methodology, metrics and findings.</p></li>
+    </ol>
+  </section>
+
+  <section class="reveal">
+    <h2>Baseline vs improved (schematic)</h2>
+    <div class="chartbox"><p class="muted" style="font-size:.85rem">Illustrative visual of the comparison style — the bars are not the real accuracy values.</p>
+      <div class="bars" style="margin-top:18px">
+        <div class="b"><div style="display:flex;gap:6px;align-items:flex-end;height:100%;width:100%"><u style="--h:40%"></u><u class="alt" style="--h:62%"></u></div><span>Class 1</span></div>
+        <div class="b"><div style="display:flex;gap:6px;align-items:flex-end;height:100%;width:100%"><u style="--h:50%"></u><u class="alt" style="--h:70%"></u></div><span>Class 2</span></div>
+        <div class="b"><div style="display:flex;gap:6px;align-items:flex-end;height:100%;width:100%"><u style="--h:35%"></u><u class="alt" style="--h:58%"></u></div><span>Class 3</span></div>
+        <div class="b"><div style="display:flex;gap:6px;align-items:flex-end;height:100%;width:100%"><u style="--h:55%"></u><u class="alt" style="--h:72%"></u></div><span>Class 4</span></div>
+        <div class="b"><div style="display:flex;gap:6px;align-items:flex-end;height:100%;width:100%"><u style="--h:45%"></u><u class="alt" style="--h:66%"></u></div><span>Class 5</span></div>
+      </div>
+      <div class="legend"><span><i></i>Baseline</span><span><i class="alt"></i>Improved</span></div></div>
+  </section>
+
+  <div class="pn"><a href="project-news.html"><small>← PREVIOUS</small><h3>News Intelligence Agent</h3></a><a href="github.html" style="text-align:right"><small>NEXT →</small><h3>GitHub repositories</h3></a></div>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
