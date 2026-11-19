@@ -30,7 +30,7 @@
       <div class="soc">
         <a href="https://github.com/${GITHUB_USER}" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:tejaskolathapully@gmail.com">Email</a>
-        <a href="assets/resume.pdf" target="_blank">Résumé</a>
+        <a href="assets/Kolathapully_Tejas_resume.pdf" target="_blank">Résumé</a>
       </div>
       Designed &amp; coded by Tejas Kolathapully · ${new Date().getFullYear()} 
     </footer><div class="toast" id="toast"></div>`);
